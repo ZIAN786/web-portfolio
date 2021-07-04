@@ -2,49 +2,61 @@
 body{
     margin: 0;
     font-family: 'Poppins', sans-serif;
-    
+    position: relative;
 }
 h1{
     font-size: 70px;
+    position: relative;
 }
 h2{
     font-size: 50px;
     padding-left: 210px;
     color: olivedrab;
+    position: relative;
 }
 h3{
     color: rgb(163, 19, 19);
     padding-left: 150px;
     font-size: 20px;
+    position: relative;
+    
     
 }
 h4{
     font-size: 16px;
+    position: relative;
 }
 h5 p{
     font-size: 15px;
     text-align: justify;
     padding-right: 5%;
+    position: relative;
 }
 .name-highlight{
     color: olivedrab;
+    position: relative;
 }
 .half-width{
     width: 40%;
     float: left;
     margin-left: 5%;
     padding-left: 2%;
+    position: relative;
 }
 .half-width img{
     width:100%;
+    height: auto;
+    position: relative;
 }
 .top-banner{
     background-image: url("top-banner.png");
     background-repeat: no-repeat;
+    position: relative;
 }
 section{
     height: 500px;
     padding-bottom: 250px;
+    position: relative;
 }
 .link-button{
     text-decoration: none;
@@ -53,40 +65,53 @@ section{
     border-radius: 7px;
     color: white;
     font-weight: 700;
+    position: relative;
 }
 p{
     text-align: justify;
+    position: relative;
 }
 .dream-area{
     background-image: url("dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+    position: relative;
 }
 .single-experience{
     box-shadow: 10px 10px 40px gray;
     border-radius: 5px;
     height: 70%;
     background-color: white;
+    position: relative;
     
 }
 .experience-area{
     background-image: url(exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    position: relative;
 }
 #design{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, lightsalmon, tomato);
     border-image-slice: 1;
+    position: relative;
 
 }
 #baby-web{
     border-left: 7px solid;
     border-image: linear-gradient(180deg, blue, cyan);
     border-image-slice: 1;
+    position: relative;
 
 }
 footer p{
     text-align: center;
+    position: relative;
     
+}
+
+.dream-area{
+    background-color: lightcyan;
+
 }
