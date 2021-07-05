@@ -51,6 +51,7 @@ h5 p{
 .top-banner{
     background-image: url("top-banner.png");
     background-repeat: no-repeat;
+    display: flex;
     position: relative;
 }
 section{
@@ -75,6 +76,8 @@ p{
     background-image: url("dream-bg.png");
     background-repeat: no-repeat;
     background-position: right;
+    background-color: lightcyan;
+    display: flex;
     position: relative;
 }
 .single-experience{
@@ -89,6 +92,7 @@ p{
     background-image: url(exp-bg.png);
     background-repeat: no-repeat;
     background-position: left;
+    
     position: relative;
 }
 #design{
@@ -109,9 +113,4 @@ footer p{
     text-align: center;
     position: relative;
     
-}
-
-.dream-area{
-    background-color: lightcyan;
-
 }
